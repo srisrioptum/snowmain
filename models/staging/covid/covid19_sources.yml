@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: COVID_19
+    database: DBT_DEV
+    schema: RAW
+    tables:
+      - name: ECDC_GLOBAL
+      - name: JHU_COVID_19
